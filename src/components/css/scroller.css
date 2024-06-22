@@ -1,0 +1,25 @@
+#scroller{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+#scroller .going{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#scroller .going .move{
+    /* border: 1px solid red; */
+    width: 24vw;
+    display: flex;
+    /* border: 1px solid white; */
+    font-size: 54px;
+    justify-content: center;
+    align-items: center;
+}

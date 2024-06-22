@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+#about{
+    display: flex;
+    height: 100%;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+#about .box{
+    display: flex;
+    /* background-color: gold; */
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100rem;
+    align-items: center;
+    border: 1px splid red;
+    gap: 9rem;
+    
+}
+
+#about .box .box1{
+    height: 20rem;
+    width: 24rem;
+    background-color: yellow;
+} 
+#about .box .box3{
+    height: 20rem;
+    width: 24rem;
+    background-color: yellow;
+} 
+#about .box .box2{
+    height: 20rem;
+    width: 24rem;
+    background-color: yellow;
+} 

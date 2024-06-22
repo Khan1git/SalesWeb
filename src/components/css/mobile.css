@@ -1,0 +1,137 @@
+
+#mobile{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* border: 1px solid green; */
+    margin: 5rem;
+}
+
+#mobile::-webkit-scrollbar{
+    display: none;
+}
+
+.headers h1{
+    padding: 4vw 8vw 0vw 8vw;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(166, 166, 223, 0.774);;
+}
+.headers p{
+    text-align: center;
+    /* color: gold; */
+}
+
+#mobile .sides{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+#mobile .sides .info{
+    /* border: 2px solid red; */
+    width:60%;
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px;
+}
+
+@media (max-width: 800px) {
+    #mobile .sides{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 2px solid red;
+    }
+    #mobile .sides .tab{
+        border: 2px solid red;
+        height: 40%;
+        width:100%;
+    }
+    #mobile .sides .info{
+        border: 2px solid red;
+        height: 60%;
+        width:100%;
+    }
+    
+}
+
+#mobile .sides .info .box{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 24px;
+    background-color: #131313;
+    border: .1px solid rgba(255, 255, 255, 0.452);
+}
+
+#mobile .sides .info .box:hover{
+    border: 2px solid white;
+    box-shadow: 0px 0px  10px white;
+}
+#mobile .sides .info p{
+    /* color: gold; */
+}
+
+#mobile .sides .info h1{
+    /* color: gold; */
+    color: rgba(166, 166, 223, 0.774);;
+}
+
+#mobile .sides .info #box1{
+    font-size: 26px;
+    display: flex;
+}
+
+#mobile .sides .info #box1 h1{
+    font-size: 65px;
+}
+#mobile .sides .info #box2{
+    font-size: 26px;
+    display: flex;
+}
+
+#mobile .sides .info #box3 h1{
+    font-size: 65px;
+}
+#mobile .sides .info #box3{
+    font-size: 26px;
+    display: flex;
+}
+
+#mobile .sides .info #box4 h1{
+    font-size: 65px;
+}
+#mobile .sides .info #box4{
+    font-size: 26px;
+    display: flex;
+}
+
+#mobile .sides .info #box2 h1{
+    font-size: 65px;
+}
+
+/* -------------- THE TABE SECTION ---------------------- */
+
+#mobile .sides .tab{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    height: 75%;
+    /* padding: 1rem; */
+    background-color: #131313;
+    border-radius: 12px;
+    /* background: url('/myapp/public/ipad.png') center center/cover; */
+}
+
+#mobile .sides .tab .device{
+    /* margin: 3rem; */
+    
+    padding: 2rem;
+    /* border: 1px solid yellow; */
+}
+

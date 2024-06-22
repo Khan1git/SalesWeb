@@ -1,0 +1,188 @@
+#interest{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: #131313 ;
+    height: 120vh;
+}
+#interest .intro{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+#interest .intro h1{
+    padding: 4vw 8vw 0vw 8vw;
+    color: rgba(166, 166, 223, 0.774);;
+    text-align: center;
+    font-size: 50px;
+}
+#interest .intro p{
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+}
+
+/*  */
+#interest .area{
+    display: flex;
+    /* justify-content: center; */
+    padding: 3rem;
+    height: 100%;
+    gap: 2rem;
+    /* border: 1px solid green; */
+}
+
+#interest .area .data{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* height: 100%; */
+    gap: 1rem;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+#interest .area .data h1{
+    font-size: 40px;
+    line-height: 54px;
+    color: rgba(166, 166, 223, 0.774);;
+}
+
+#interest .area .data .tags{
+    display: flex;
+    justify-content: start;
+    color: white;
+    gap: 1rem;
+    
+}
+
+#interest .area .data .tag{
+    border-radius: 12px;
+    text-align: center;
+    padding: .5rem;
+    font-size: small;
+    background-color: black;
+}
+
+
+#interest .area .data button{
+    /* position: absolute; */
+    bottom: 12px;
+    padding: .3rem;
+    border: 1px solid grey;
+    outline: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#interest .area .data button:hover{
+    background-color: gray;
+}
+
+#interest .area .cards{
+    /* margin-top: -2rem; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 50%;
+    height: 80%;
+    background-color: black;
+    /* border: 1px solid red; */
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+#interest .area .cards .card{
+    width: 80%;
+    overflow: hidden;
+    /* background-color: #131313; */
+    box-shadow: 0px 0px 30px  ;
+
+    border-top-right-radius: none;
+    border-top-left-radius: 12px;
+    /* border-radius: 12px; */
+    height:90%;
+    /* border: 1px solid red; */
+}
+
+/* ------------ THE TRACK SECITON */
+
+#track{
+    display: flex;
+    background-color: #131313;
+    justify-content: center;
+    height: 80vh;
+    /* margin: 10rem; */
+    /* gap: 1rem; */
+}
+
+#track .track_details{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 50%;
+    /* padding: 1rem; */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#track .track_details h1{
+    font-size: 50px;
+    line-height: 54px;
+    color: rgba(166, 166, 223, 0.774);;
+    /* text-align: center; */
+}
+
+#track .track_card{
+    /* margin: 1rem; */
+    display: flex;
+    /* border: 1px solid red; */
+    width: 50%;
+    border-radius: 23px;
+    justify-content: center;
+    background-color: #131313;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#track .track_card .card1{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    background-color: black;
+    border-radius: 23px;
+    width: 80%;
+
+}
+
+#track .track_card .card1 .show{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    padding: 1rem;
+    /* border: 1px solid yellow; */
+    height: 90%;
+    border-radius: 23px;
+    font-size: 20px;
+    gap: 1rem;
+    width: 70%;
+    backdrop-filter: 20px;
+    line-height: 43px;
+    
+}
+
+#track .track_card .card1 .show h1{
+    font-size: 30px;
+}
+#track .track_card .card1 .show span{
+    color: gold;
+}

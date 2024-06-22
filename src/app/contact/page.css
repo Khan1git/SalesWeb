@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: black;
+}
+
+#contact .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* border: 1px solid goldenrod; */
+    /* margin: 3rem; */
+    height: 80%;
+    width: 100%; 
+
+}
+
+#contact .main .fields{
+    display: flex;
+    background-color:  #131313 ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+    /* border: 1px solid goldenrod; */
+    margin: 3rem;
+    height: 100%;
+    border-radius: 23px;
+    width: 60%;
+} 
+
+#contact .main .fields input{
+    padding: .6rem;
+    border-bottom: 1px solid rgb(223, 223, 223) ;
+    border-top: none;
+    background-color: transparent;
+    width: 70%;
+    outline: none;
+}
+
+#contact .main .fields textarea{
+    padding: .6rem;
+    border-bottom: 1px solid rgb(223, 223, 223) ;
+    border-top: none;
+    background-color: transparent;
+    width: 70%;
+    outline: none;
+}
+#contact .main .fields button{
+    padding: .3rem;
+    border: 1px solid grey;
+    outline: none;
+    background-color: white ;
+    color:  black;
+    text-align: center;
+    border-radius: 8px;
+}
+    
+#contact .main .side{
+    /* border: 1px solid goldenrod; */
+    /* margin: 3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+} 

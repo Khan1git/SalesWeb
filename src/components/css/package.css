@@ -1,0 +1,78 @@
+#packages{
+    height: 140vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#packages .heading{
+    padding: 4vw 8vw 0vw 8vw;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(166, 166, 223, 0.774);;
+}
+
+#packages .p_home{
+    display: grid;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid yellow; */
+}
+
+#packages .p_home .box{
+    flex-direction: column;
+    border-radius: 12px;
+    /* padding: 9vw 8vw 8vw 0vw; */
+    padding-top: 4vw;
+    padding-left: 2vw;
+    gap: 1rem;
+    display: flex;
+    justify-content: start;
+    /* align-items: center */
+    margin: 1rem;
+    background-color: #131313;
+    height: 70%;
+    border: 1px solid white;
+}
+#packages .p_home .box:hover{
+    background-color: #13131381;
+    cursor: pointer;
+}
+
+
+#packages .p_home .box h1{
+    font-size: 40px;
+    color: rgba(166, 166, 223, 0.774);;
+}
+
+#packages .p_home .box h2{
+    /* line-height: 10px; */
+    font-size: 20px;
+}
+#packages .p_home .price{
+    font-size: 30px;
+}
+
+#packages .p_home .box  button{
+    width: 50%;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px  10px;
+    padding: .3rem;
+}
+
+#packages .p_home .box  button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px white;
+
+}
+#packages .p_home .package2{
+    box-shadow: 0px 0px 20px;
+}
