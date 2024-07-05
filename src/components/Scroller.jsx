@@ -17,7 +17,8 @@ const Scroller = () => {
               toggleActions: 'play pause resume reset',
               start: 'top 500px',
               end: 'bottom top',
-              scrub: true
+            //   scrub: true,
+              animate: 1, 
             },
             x: 800,
             // x:300,

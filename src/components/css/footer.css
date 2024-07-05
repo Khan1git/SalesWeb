@@ -1,0 +1,36 @@
+.footer_home{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+
+.footer_features{
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 4vw 3vw ;
+    font-weight: .1px   ;
+}
+.reg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    /* border: 1px solid red; */
+    padding: 4vw 9vw 4vw ;
+}
+
+.reg input{
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    outline: none;
+    color: white;
+}
+
+.reg button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.288);
+    margin-left: 1rem;
+    width: 5rem;
+    color: white
+}
